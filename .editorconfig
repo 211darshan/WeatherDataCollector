@@ -1,0 +1,19 @@
+﻿[*.{cs,vb}]
+
+# IDE0029: Use coalesce expression
+#dotnet_diagnostic.IDE0029.severity = none
+
+# CS8600: Converting null literal or possible null value to non-nullable type.
+dotnet_diagnostic.CS8600.severity = silent
+
+# CS8604: Possible null reference argument.
+dotnet_diagnostic.CS8604.severity = silent
+
+# CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+dotnet_diagnostic.CS8618.severity = silent
+
+# CS8601: Possible null reference assignment.
+dotnet_diagnostic.CS8601.severity = silent
+
+# CS8633: Nullability in constraints for type parameter doesn't match the constraints for type parameter in implicitly implemented interface method'.
+dotnet_diagnostic.CS8633.severity = silent
