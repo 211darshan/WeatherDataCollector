@@ -13,11 +13,15 @@ This is a .NET Core console application that collects daily weather data for a l
 - Includes unit tests with MSTest and Moq
 - Configurable via `appsettings.json`
 
+
+
 1. REQUIREMENTS:
 ----------------
 - .NET SDK 8.0
 - An OpenWeatherMap API key
 - Visual Studio
+
+
 
 2. CONFIGURATION
 
@@ -31,6 +35,8 @@ Example:
 }
 
 
+
+
 3. RUN:
 ---------------------
 -Open a terminal or command prompt and run:
@@ -38,6 +44,8 @@ Example:
 - dotnet restore
 - dotnet build
 - dotnet run --project WeatherSyncJob
+
+
 
 4. OUTPUT STRUCTURE
 
