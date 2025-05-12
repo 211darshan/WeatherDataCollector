@@ -33,11 +33,11 @@ Example:
 
 3. RUN:
 ---------------------
-Open a terminal or command prompt and run:
-
-    dotnet restore
-    dotnet build
-    dotnet run --project WeatherSyncJob
+-Open a terminal or command prompt and run:
+-Navigate to WeatherSyncJob and then run below commands
+-dotnet restore
+-dotnet build
+-dotnet run --project WeatherSyncJob
 
 4. OUTPUT STRUCTURE
 
